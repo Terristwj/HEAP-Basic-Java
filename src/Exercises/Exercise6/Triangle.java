@@ -5,9 +5,9 @@ import java.lang.Math;
 //TODO: create triangle class that extends BasicShape
 public class Triangle extends BasicShape{
     //TODO: create 3 side variables
-    public int side1;
-    public int side2;
-    public int side3;
+    private int side1;
+    private int side2;
+    private int side3;
 
     //TODO: create constructor taking in 3 variables for the sides
     public Triangle(int side1, int side2, int side3) {

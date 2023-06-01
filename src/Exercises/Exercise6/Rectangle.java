@@ -3,9 +3,9 @@ package Exercises.Exercise6;
 //TODO: extend the BasicShape abstract class
 public class Rectangle extends BasicShape{
     //TODO: create variable length
-    public int length;
+    protected int length;
     //TODO: create variable breadth
-    public int breadth;
+    protected int breadth;
 
     //TODO: create constructor that takes in length and breadth
     // assign length and breadth to the class variables
